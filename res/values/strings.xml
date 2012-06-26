@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="empty_string"></string>
+
+    <declare-styleable name="net.youmi.android.AdView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="backgroundTransparent" format="integer" />
+    </declare-styleable>
+
+    <string name="app_name">猎艳后宫</string>
+    <string name="download_tips">"您的书币已经不足100,需要下载软件获得100书币才能继续阅读,下载软件不会收取您的费用,请放心下载"</string>
+
+</resources>
