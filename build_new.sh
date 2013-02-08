@@ -212,5 +212,6 @@ echo "reset code to HEAD >>>>>>>>>>"
 echo 
 echo 
 echo 
+git add .
 git reset --hard HEAD
 git log --pretty=short
