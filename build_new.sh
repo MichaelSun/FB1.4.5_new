@@ -204,3 +204,13 @@ echo rm -rf $1/*.apk
 rm -rf $1/*.apk
 
 buildOneChannel $1
+echo 
+echo 
+echo 
+echo 
+echo "reset code to HEAD >>>>>>>>>>"
+echo 
+echo 
+echo 
+git reset --hard HEAD
+git log --pretty=short
