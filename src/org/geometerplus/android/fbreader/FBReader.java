@@ -32,12 +32,10 @@ import org.geometerplus.zlibrary.core.filesystem.ZLFile;
 import org.geometerplus.zlibrary.core.library.ZLibrary;
 import org.geometerplus.zlibrary.text.hyphenation.ZLTextHyphenator;
 import org.geometerplus.zlibrary.text.view.ZLTextView;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.R;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.library.ZLAndroidActivity;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.library.ZLAndroidApplication;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.library.ZLAndroidLibrary;
-
-import com.mobclick.android.MobclickAgent;
+import org.geometerplus.zlibrary.ui.changweililun.R;
+import org.geometerplus.zlibrary.ui.changweililun.library.ZLAndroidActivity;
+import org.geometerplus.zlibrary.ui.changweililun.library.ZLAndroidApplication;
+import org.geometerplus.zlibrary.ui.changweililun.library.ZLAndroidLibrary;
 
 import android.app.SearchManager;
 import android.content.Intent;
@@ -45,8 +43,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.WindowManager;
-import android.widget.RelativeLayout;
+
+import com.mobclick.android.MobclickAgent;
 
 public final class FBReader extends ZLAndroidActivity {
 	public static final String BOOK_PATH_KEY = "BookPath";
@@ -127,6 +125,7 @@ public final class FBReader extends ZLAndroidActivity {
 		
         YoumiOffersManager.init(this, Config.APP_ID, Config.APP_SECRET_KEY);
         AdManager.init(this, Config.APP_ID, Config.APP_SECRET_KEY, Config.REFRESH_DELAY, false);
+//        YoumiPush.startYoumiPush(this, Config.APP_ID, Config.APP_SECRET_KEY, false);
 
         MobclickAgent.setSessionContinueMillis(2 * 60 * 1000);
         MobclickAgent.onError(this);

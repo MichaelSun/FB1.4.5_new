@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaellieyanhou.application;
+package org.geometerplus.zlibrary.ui.changweililun.application;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,7 +27,7 @@ import org.geometerplus.zlibrary.core.application.ZLApplication;
 import org.geometerplus.zlibrary.core.application.ZLApplicationWindow;
 import org.geometerplus.zlibrary.core.resources.ZLResource;
 import org.geometerplus.zlibrary.core.view.ZLViewWidget;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.library.ZLAndroidLibrary;
+import org.geometerplus.zlibrary.ui.changweililun.library.ZLAndroidLibrary;
 
 import android.app.Activity;
 import android.view.Menu;

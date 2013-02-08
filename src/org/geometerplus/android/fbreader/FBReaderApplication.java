@@ -21,7 +21,7 @@ package org.geometerplus.android.fbreader;
 
 import android.content.Intent;
 
-import org.geometerplus.zlibrary.ui.michaellieyanhou.library.ZLAndroidApplication;
+import org.geometerplus.zlibrary.ui.changweililun.library.ZLAndroidApplication;
 
 public class FBReaderApplication extends ZLAndroidApplication {
 	@Override

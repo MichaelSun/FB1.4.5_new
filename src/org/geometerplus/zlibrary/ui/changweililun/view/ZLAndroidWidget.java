@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaellieyanhou.view;
+package org.geometerplus.zlibrary.ui.changweililun.view;
 
 import net.youmi.android.appoffers.YoumiOffersManager;
 import net.youmi.android.appoffers.YoumiPointsManager;
@@ -26,8 +26,8 @@ import org.geometerplus.android.fbreader.Config;
 import org.geometerplus.zlibrary.core.application.ZLApplication;
 import org.geometerplus.zlibrary.core.view.ZLView;
 import org.geometerplus.zlibrary.core.view.ZLViewWidget;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.R;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.library.ZLAndroidActivity;
+import org.geometerplus.zlibrary.ui.changweililun.R;
+import org.geometerplus.zlibrary.ui.changweililun.library.ZLAndroidActivity;
 
 import android.app.AlertDialog;
 import android.content.Context;

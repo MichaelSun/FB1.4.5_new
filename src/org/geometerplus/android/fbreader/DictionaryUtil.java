@@ -36,7 +36,7 @@ import org.geometerplus.zlibrary.core.xml.ZLStringMap;
 import org.geometerplus.zlibrary.text.view.ZLTextRegion;
 import org.geometerplus.zlibrary.text.view.ZLTextWord;
 
-import org.geometerplus.zlibrary.ui.michaellieyanhou.library.ZLAndroidLibrary;
+import org.geometerplus.zlibrary.ui.changweililun.library.ZLAndroidLibrary;
 
 import org.geometerplus.android.util.UIUtil;
 import org.geometerplus.android.util.PackageUtil;

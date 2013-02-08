@@ -17,14 +17,14 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaellieyanhou.library;
+package org.geometerplus.zlibrary.ui.changweililun.library;
 
 import android.app.Application;
 
 import org.geometerplus.zlibrary.core.sqliteconfig.ZLSQLiteConfig;
 
-import org.geometerplus.zlibrary.ui.michaellieyanhou.application.ZLAndroidApplicationWindow;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.image.ZLAndroidImageManager;
+import org.geometerplus.zlibrary.ui.changweililun.application.ZLAndroidApplicationWindow;
+import org.geometerplus.zlibrary.ui.changweililun.image.ZLAndroidImageManager;
 
 public abstract class ZLAndroidApplication extends Application {
 	public ZLAndroidApplicationWindow myMainWindow;

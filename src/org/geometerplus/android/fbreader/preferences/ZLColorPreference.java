@@ -31,8 +31,8 @@ import org.geometerplus.zlibrary.core.util.ZLColor;
 import org.geometerplus.zlibrary.core.options.ZLColorOption;
 import org.geometerplus.zlibrary.core.resources.ZLResource;
 
-import org.geometerplus.zlibrary.ui.michaellieyanhou.R;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.util.ZLAndroidColorUtil;
+import org.geometerplus.zlibrary.ui.changweililun.R;
+import org.geometerplus.zlibrary.ui.changweililun.util.ZLAndroidColorUtil;
 
 class ZLColorPreference extends DialogPreference {
 	private final ZLColorOption myOption;

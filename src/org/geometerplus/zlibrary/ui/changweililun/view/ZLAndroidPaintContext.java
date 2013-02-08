@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaellieyanhou.view;
+package org.geometerplus.zlibrary.ui.changweililun.view;
 
 import java.util.*;
 import java.io.File;
@@ -30,8 +30,8 @@ import org.geometerplus.zlibrary.core.view.ZLPaintContext;
 import org.geometerplus.zlibrary.core.filesystem.ZLFile;
 import org.geometerplus.zlibrary.core.options.ZLBooleanOption;
 
-import org.geometerplus.zlibrary.ui.michaellieyanhou.image.ZLAndroidImageData;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.util.ZLAndroidColorUtil;
+import org.geometerplus.zlibrary.ui.changweililun.image.ZLAndroidImageData;
+import org.geometerplus.zlibrary.ui.changweililun.util.ZLAndroidColorUtil;
 
 public final class ZLAndroidPaintContext extends ZLPaintContext {
 	public static ZLBooleanOption AntiAliasOption = new ZLBooleanOption("Fonts", "AntiAlias", true);

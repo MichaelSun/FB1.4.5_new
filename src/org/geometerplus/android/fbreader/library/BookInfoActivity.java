@@ -41,9 +41,9 @@ import org.geometerplus.zlibrary.core.image.ZLLoadableImage;
 import org.geometerplus.zlibrary.core.resources.ZLResource;
 import org.geometerplus.zlibrary.core.language.ZLLanguageUtil;
 
-import org.geometerplus.zlibrary.ui.michaellieyanhou.R;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.image.ZLAndroidImageData;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.image.ZLAndroidImageManager;
+import org.geometerplus.zlibrary.ui.changweililun.R;
+import org.geometerplus.zlibrary.ui.changweililun.image.ZLAndroidImageData;
+import org.geometerplus.zlibrary.ui.changweililun.image.ZLAndroidImageManager;
 
 import org.geometerplus.fbreader.library.*;
 import org.geometerplus.fbreader.network.HtmlUtil;

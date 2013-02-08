@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaellieyanhou.view;
+package org.geometerplus.zlibrary.ui.changweililun.view;
 
 import android.graphics.Bitmap;
 

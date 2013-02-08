@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaellieyanhou.library;
+package org.geometerplus.zlibrary.ui.changweililun.library;
 
 import java.lang.reflect.*;
 
@@ -32,16 +32,16 @@ import android.os.PowerManager;
 import org.geometerplus.zlibrary.core.application.ZLApplication;
 import org.geometerplus.zlibrary.core.filesystem.ZLFile;
 
-import org.geometerplus.zlibrary.ui.michaellieyanhou.R;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.application.ZLAndroidApplicationWindow;
+import org.geometerplus.zlibrary.ui.changweililun.R;
+import org.geometerplus.zlibrary.ui.changweililun.application.ZLAndroidApplicationWindow;
 
 import com.mobclick.android.MobclickAgent;
 
 public abstract class ZLAndroidActivity extends Activity {
 	protected abstract ZLApplication createApplication();
 
-	private static final String REQUESTED_ORIENTATION_KEY = "org.geometerplus.zlibrary.ui.michaellieyanhou.library.androidActiviy.RequestedOrientation";
-	private static final String ORIENTATION_CHANGE_COUNTER_KEY = "org.geometerplus.zlibrary.ui.michaellieyanhou.library.androidActiviy.ChangeCounter";
+	private static final String REQUESTED_ORIENTATION_KEY = "org.geometerplus.zlibrary.ui.changweililun.library.androidActiviy.RequestedOrientation";
+	private static final String ORIENTATION_CHANGE_COUNTER_KEY = "org.geometerplus.zlibrary.ui.changweililun.library.androidActiviy.ChangeCounter";
 
 	private void setScreenBrightnessAuto() {
 		final WindowManager.LayoutParams attrs = getWindow().getAttributes();

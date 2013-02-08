@@ -21,7 +21,7 @@ package org.geometerplus.android.fbreader;
 
 import android.widget.RelativeLayout;
 
-import org.geometerplus.zlibrary.ui.michaellieyanhou.R;
+import org.geometerplus.zlibrary.ui.changweililun.R;
 
 import org.geometerplus.fbreader.fbreader.ActionCode;
 import org.geometerplus.fbreader.fbreader.FBReaderApp;

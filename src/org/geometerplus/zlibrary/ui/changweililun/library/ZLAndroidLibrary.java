@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaellieyanhou.library;
+package org.geometerplus.zlibrary.ui.changweililun.library;
 
 import java.io.*;
 import java.util.*;
@@ -40,8 +40,8 @@ import org.geometerplus.zlibrary.core.filesystem.ZLResourceFile;
 import org.geometerplus.zlibrary.core.options.ZLBooleanOption;
 import org.geometerplus.zlibrary.core.options.ZLIntegerRangeOption;
 
-import org.geometerplus.zlibrary.ui.michaellieyanhou.R;
-import org.geometerplus.zlibrary.ui.michaellieyanhou.view.ZLAndroidWidget;
+import org.geometerplus.zlibrary.ui.changweililun.R;
+import org.geometerplus.zlibrary.ui.changweililun.view.ZLAndroidWidget;
 
 public final class ZLAndroidLibrary extends ZLibrary {
 	public final ZLBooleanOption ShowStatusBarOption = new ZLBooleanOption("LookNFeel", "ShowStatusBar", hasNoHardwareMenuButton());
