@@ -214,4 +214,4 @@ echo
 echo 
 git add .
 git reset --hard HEAD
-git log --pretty=short
+git log -p -1
