@@ -132,13 +132,15 @@ def _Main(args):
         package_replace_from = ''
         f = open(MENIFEST)
         for line in f:
-            m = re.search('org.geometerplus.zlibrary.ui.[a-z0-9A-Z]*', line)
+            m = re.search('com.michael.manhua.[a-z0-9A-Z]*', line)
             if m:
                 package_replace_from = m.group(0)
                 print 'package replace is {0}'.format(package_replace_from)
         _replce_text_in_file(MENIFEST, 'package=\".*\"', 'package=\"{0}\"'.format(iniDict[PACKAGE_NAME]))
 
         package_replace_to = iniDict[PACKAGE_NAME]
+
+        print 'replace from {0} to {1}'.format(package_replace_from, package_replace_to)
 
         if package_replace_from == None or package_replace_to == None:
             raise RuntimeError()
@@ -166,7 +168,7 @@ def _Main(args):
             shutil.rmtree('{0}/{1}'.format('src/org/geometerplus/zlibrary/ui', newPackageName))
         shutil.move('{0}/{1}'.format('src/org/geometerplus/zlibrary/ui', oldPackageName), '{0}/{1}'.format('src/org/geometerplus/zlibrary/ui', newPackageName))
         if os.path.exists('{0}/{1}'.format('src/org/geometerplus/zlibrary/ui', newPackageName)):
-            copy = 'cp -rf {0}book.epub assets/book/book.epub ; cp -rf {1}icon.png res/drawable/icon.png'.format(work_dir, work_dir)
+            copy = 'cp -rf {0}book.epub assets/book/book.epub ; cp -rf {1}icon.jpg res/drawable/icon.jpg'.format(work_dir, work_dir)
             print 'copy book : ', copy
             os.system(copy)
 
